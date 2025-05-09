@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.18028331, g: 0.2257133, b: 0.3069217, a: 1}
+  m_IndirectSpecularColor: {r: 0.18028378, g: 0.22571412, b: 0.30692285, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -739,7 +739,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_SelectActionTrigger: 0
-  m_HideControllerOnSelect: 1
+  m_HideControllerOnSelect: 0
   m_AllowHoveredActivate: 0
   m_TargetPriorityMode: 0
   m_PlayAudioClipOnSelectEntered: 0
@@ -1562,7 +1562,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_SelectActionTrigger: 0
-  m_HideControllerOnSelect: 1
+  m_HideControllerOnSelect: 0
   m_AllowHoveredActivate: 0
   m_TargetPriorityMode: 0
   m_PlayAudioClipOnSelectEntered: 0
@@ -2856,7 +2856,6 @@ Transform:
   - {fileID: 1368439270}
   - {fileID: 1614169342}
   - {fileID: 1850753182}
-  - {fileID: 1709587824}
   - {fileID: 2056462296}
   m_Father: {fileID: 0}
   m_RootOrder: 5
@@ -2956,7 +2955,7 @@ PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
-    m_TransformParent: {fileID: 1582366248}
+    m_TransformParent: {fileID: 0}
     m_Modifications:
     - target: {fileID: 1564276163303955322, guid: 093d994e44bd73043850362e6d954a7e,
         type: 3}
@@ -2966,22 +2965,22 @@ PrefabInstance:
     - target: {fileID: 2233429505981514176, guid: 093d994e44bd73043850362e6d954a7e,
         type: 3}
       propertyPath: m_RootOrder
-      value: 11
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 2233429505981514176, guid: 093d994e44bd73043850362e6d954a7e,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0.882
+      value: 1.9922531
       objectReference: {fileID: 0}
     - target: {fileID: 2233429505981514176, guid: 093d994e44bd73043850362e6d954a7e,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: -0.585
+      value: 0.25109226
       objectReference: {fileID: 0}
     - target: {fileID: 2233429505981514176, guid: 093d994e44bd73043850362e6d954a7e,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: 0.96
+      value: 0.6249901
       objectReference: {fileID: 0}
     - target: {fileID: 2233429505981514176, guid: 093d994e44bd73043850362e6d954a7e,
         type: 3}
@@ -3018,14 +3017,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6941339833226901756, guid: 093d994e44bd73043850362e6d954a7e,
+        type: 3}
+      propertyPath: m_Material
+      value: 
+      objectReference: {fileID: 13400000, guid: acb78fcb0450e4fb8b9fb4a2efa13fac,
+        type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 093d994e44bd73043850362e6d954a7e, type: 3}
---- !u!4 &1709587824 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 2233429505981514176, guid: 093d994e44bd73043850362e6d954a7e,
-    type: 3}
-  m_PrefabInstance: {fileID: 1709587823}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1709587825 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 1564276163303955322, guid: 093d994e44bd73043850362e6d954a7e,
@@ -3135,11 +3134,11 @@ MonoBehaviour:
   m_AngularVelocityDamping: 1
   m_AngularVelocityScale: 1
   m_TrackPosition: 1
-  m_SmoothPosition: 0
+  m_SmoothPosition: 1
   m_SmoothPositionAmount: 5
   m_TightenPosition: 0.5
   m_TrackRotation: 1
-  m_SmoothRotation: 0
+  m_SmoothRotation: 1
   m_SmoothRotationAmount: 5
   m_TightenRotation: 0.5
   m_ThrowOnDetach: 1
@@ -3182,7 +3181,7 @@ Rigidbody:
   m_IsKinematic: 0
   m_Interpolate: 0
   m_Constraints: 0
-  m_CollisionDetection: 0
+  m_CollisionDetection: 2
 --- !u!1001 &1769066292
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3407,7 +3406,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1582366248}
-  m_RootOrder: 12
+  m_RootOrder: 11
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!65 &2056462297
 BoxCollider:
